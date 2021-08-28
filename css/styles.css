@@ -1,0 +1,57 @@
+/* ====== global ====== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background: #f0f2f5;
+}
+
+.container {
+    width: min(90vw, 800px);
+    margin: auto;
+}
+/* ====== titles ====== */
+h2 {
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color: #363f5f;
+    font-weight: 300;
+}
+
+/* ====== header ====== */
+header {
+    background: #22384a;
+    padding: 2rem 0 10rem;
+    text-align: center;
+}
+
+#logo {
+    color: #fff;
+    font-weight: 300;
+}
+
+header h1 {
+
+}
+
+/* ====== balance ====== */
+
+#balance {
+    margin-top: -8rem;
+}
+
+#balance h2{
+    color: #fff;
+    margin-top: 0;
+}
+
+/* ====== cards ====== */
+
+/* ====== footer ====== */
+footer {
+    text-align: center;
+}
