@@ -28,14 +28,14 @@ h2 {
 
 /* ====== header ====== */
 header {
-    background: #22384a;
+    background: #0b5ca3;
     padding: 2rem 0 10rem;
     text-align: center;
 }
 
 #logo {
     color: #fff;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 header h1 {
