@@ -17,30 +17,41 @@
 <body>
 
   <header>
-    <h1 id="logo">dev.finance$</h1>
+    <img src="./assets/logo.svg" alt="Logo Dev Finance">
   </header>
 
   <main class="container">
 
     <section id="balance">
-      <h2>Balanço</h2>
+      <h2 class="sr-only">Balanço</h2>
       <div class="card">
-        <h3 class="income">Entradas</h3>
+        <h3 class="income">
+          <span>Entradas</span>
+          <img src="./assets/income.svg" alt="Imagem de entradas">
+        </h3>
         <p>R$5.000,00</p>
       </div>
       <div class="card">
-        <h3 class="expanse">Saídas</h3>
+        <h3 class="expanse">
+          <span>Saídas</span>
+          <img src="./assets/expense.svg" alt="Imagem de Saídas">
+        </h3>
         <p>R$2.000,00</p>
       </div>
       <div class="card total">
-        <h3>Total</h3>
+        <h3>
+          <span>Total</span>
+          <img src="./assets/total.svg" alt="Imagem de total">
+        </h3>
         <p>R$3.000,00</p>
       </div>
 
     </section>
 
     <section id="transaction">
-      <h2>Transações</h2>
+      <h2 class="sr-only">Transações</h2>
+
+      <a href="#" class="button new">+ Nova Transação</a>
 
       <table id="data-table">
         <thead>
@@ -48,6 +59,7 @@
             <th>Descrição</th>
             <th>Valor</th>
             <th>Data</th>
+            <th></th>
           </tr>
         </thead>
         <tbody>
@@ -55,22 +67,36 @@
             <td class="description">Luz</td>
             <td class="expanse">- R$500,00</td>
             <td class="date">12/08/2021</td>
+            <td><img src="./assets/minus.svg" alt="Remover Transação"></td>
           </tr>
           <tr>
             <td class="description">Website</td>
             <td class="income">R$2000,00</td>
             <td class="date">12/08/2021</td>
+            <td><img src="./assets/minus.svg" alt="Remover Transação"></td>
           </tr>
           <tr>
             <td class="description">Gás</td>
             <td class="expanse">- R$100,00</td>
             <td class="date">12/08/2021</td>
+            <td><img src="./assets/minus.svg" alt="Remover Transação"></td>
           </tr>
         </tbody>
       </table>
     </section>
 
   </main>
+
+  <div class="modal-overlay active">
+    <div class="modal">
+      
+        <div class="form">
+          <h2>Nova Transação</h2>
+          <form action=""></form>
+        </div>
+      
+    </div>
+  </div>
 
   <footer class="container">
     <p>dev.finance$ by Isaac Ziroldo</p>
